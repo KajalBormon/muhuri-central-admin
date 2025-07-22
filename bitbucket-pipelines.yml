@@ -1,0 +1,40 @@
+pipelines:
+  branches:
+    development:
+      - step:
+          name: Deploy to development
+          deployment: Development
+          script:
+            - echo "Deploying to dev environment"
+            - mkdir -p ~/.ssh
+            - echo $MY_KNOWN_HOST
+            - echo $MY_KNOWN_HOST | base64 --decode > ~/.ssh/known_hosts
+            - (umask  077 ; echo $SSH_KEY | base64 --decode > ~/.ssh/id_rsa)
+            - chmod 700 ~/.ssh/id_rsa
+            - eval "$(ssh-agent -s)"
+            - ssh-add ~/.ssh/id_rsa
+            - ssh-keyscan -H 'bitbucket.org' >> ~/.ssh/known_hosts
+            - chmod +x ./deploy.sh
+            - echo $HOST "user and host"
+            - scp  -o StrictHostKeyChecking=no -r ./deploy.sh $USER@$HOST:/var/www/html/muhuri-web-central-admin/
+            - bash ./deploy.sh
+            - echo "Deploying to development environment"
+    production:
+      - step:
+          name: Deploy to production
+          deployment: Production
+          script:
+            - echo "Deploying to production environment"
+            - mkdir -p ~/.ssh
+            - echo $MY_KNOWN_HOST
+            - echo $MY_KNOWN_HOST | base64 --decode > ~/.ssh/known_hosts
+            - (umask 077; echo $SSH_KEY | base64 --decode > ~/.ssh/id_rsa)
+            - chmod 700 ~/.ssh/id_rsa
+            - eval "$(ssh-agent -s)"
+            - ssh-add ~/.ssh/id_rsa
+            - ssh-keyscan -H 'bitbucket.org' >> ~/.ssh/known_hosts
+            - chmod +x ./deploy.sh
+            - echo $HOST "user and host"
+            - scp -o StrictHostKeyChecking=no -r ./deploy.sh $USER@$HOST:/var/www/html/muhuri-web-central-admin/
+            - bash ./deploy.sh
+            - echo "Deploying to production environment"

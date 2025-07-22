@@ -1,0 +1,342 @@
+{
+    "label": {
+        "name": "নাম",
+        "email": "ইমেইল",
+        "slug": "স্লাগ",
+        "status": "স্ট্যাটাস",
+        "mobileNumber": "মোবাইল নম্বর",
+        "address": "ঠিকানা",
+        "note": "নোট",
+        "division": "বিভাগ",
+        "district": "জেলা",
+        "upazila": "উপজেলা",
+        "union": "ইউনিয়ন",
+        "village": "গ্রাম",
+        "actions": "অ্যাকশন",
+        "date": "তারিখ",
+        "totalPrice": "মোট দাম",
+        "quantity": "পরিমাণ",
+        "rate": "দর",
+        "createdBy": "যে তৈরি করেছে",
+        "paymentStatus": "পেমেন্ট স্ট্যাটাস",
+        "transactionId": "লেনদেন আইডি",
+        "buyer": "ক্রেতা",
+        "totalTransaction": "স‍র্বেমাট লেনদেন",
+        "totalPayment": "স‍র্বেমাট জমা",
+        "totalDue": "স‍র্বেমাট বাকি"
+    },
+
+    "placeholder": {
+        "name": "নাম",
+        "email": "ইমেইল",
+        "slug": "স্লাগ",
+        "status": "স্ট্যাটাস",
+        "mobileNumber": "মোবাইল নম্বর",
+        "address": "ঠিকানা",
+        "note": "নোট",
+        "division": "বিভাগ",
+        "district": "জেলা",
+        "upazila": "উপজেলা",
+        "union": "ইউনিয়ন",
+        "village": "গ্রাম",
+        "date": "তারিখ",
+        "totalPrice": "মোট দাম",
+        "quantity": "পরিমাণ",
+        "rate": "দর"
+    },
+
+    "configuration": {
+        "label": {
+            "companyName": "প্রতিষ্ঠানের নাম",
+            "organizationNumber": "সংস্থার নম্বর",
+            "country": "দেশ",
+            "dateFormat": "তারিখ ফরম্যাট",
+            "email": "ইমেইল",
+            "adminEmail": "অ্যাডমিন ইমেইল",
+            "telephoneNumber": "টেলিফোন নম্বর",
+            "address": "ঠিকানা",
+            "domainAdminPortal": "ডোমেইন এডমিন পোর্টাল",
+            "httpProtocol": "এইচটিটিপি প্রোটোকল",
+            "supportEmail": "সাপোর্ট ইমেইল ",
+            "supportTelephone": "সাপোর্ট টেলিফোন",
+            "smsServiceBaseUrl": "বেস ইউআরএল",
+            "smsServiceApiKey": "এপিআই কী",
+            "smsServiceSenderId": "সেন্ডার আইডি",
+            "otpExpiryTimeMinutes": "ওটিপি মেয়াদ উত্তীর্ণ সময়",
+            "smsRate": "এসএমএস এর মূল্য",
+            "freeSmsQuantity": "ফ্রী এসএমএস এর পরিমাণ"
+        },
+        "placeholder": {
+            "companyName": "প্রতিষ্ঠানের নাম",
+            "organizationNumber": "সংস্থার নম্বর",
+            "country": "দেশ",
+            "dateFormat": "তারিখ ফরম্যাট",
+            "email": "ইমেইল",
+            "adminEmail": "অ্যাডমিন ইমেইল",
+            "telephoneNumber": "টেলিফোন নম্বর",
+            "domainAdminPortal": "ডোমেইন এডমিন পোর্টাল",
+            "httpProtocol": "এইচটিটিপি প্রোটোকল",
+            "supportEmail": "সাপোর্ট ইমেইল ",
+            "supportTelephone": "সাপোর্ট টেলিফোন",
+            "smsServiceBaseUrl": "বেস ইউআরএল",
+            "smsServiceApiKey": "এপিআই কী",
+            "smsServiceSenderId": "সেন্ডার আইডি",
+            "otpExpiryTimeMinutes": "ওটিপি মেয়াদ উত্তীর্ণ সময়"
+        },
+        "header": {
+            "details": "ডিটেইলস",
+            "basicInfo": "মৌলিক",
+            "additionalInfo": "অতিরিক্ত",
+            "contactInfo": "যোগাযোগ",
+            "globalInfo": "গ্লোবাল",
+            "smsService": "এসএমএস পরিষেবা",
+            "show": {
+                "basicInformation": "মৌলিক তথ্য",
+                "additionalInformation": "অতিরিক্ত তথ্য",
+                "contactInformation": "যোগাযোগের তথ্য",
+                "globalInformation": "গ্লোবাল তথ্য",
+                "smsService": "এসএমএস পরিষেবা"
+            },
+            "title": {
+                "basicInformation": "সেটিংসের মৌলিক তথ্য আপডেট",
+                "additionalInformation": "সেটিংসের অতিরিক্ত তথ্য আপডেট",
+                "contactInformation": "সেটিংসের যোগাযোগের তথ্য আপডেট",
+                "globalInformation": "গ্লোবাল তথ্য আপডেট",
+                "smsService": "সেটিংসের এসএমএস পরিষেবার তথ্য আপডেট করুন",
+                "tooltip": "উৎপত্তিস্থল"
+            }
+        }
+    },
+    "permission" : {
+        "label": {
+            "name": "নাম",
+            "guardName": "গার্ড",
+            "groupName": "গ্রুপ",
+            "status": "স্ট্যাটাস",
+            "displayName": "ডিসপ্লে নাম"
+        },
+        "placeholder": {
+            "searchPermissions": "পারমিশন অনুসন্ধান",
+            "name": "নাম",
+            "guardName": "গার্ড",
+            "groupName": "গ্রুপ",
+            "displayName": "ডিসপ্লে নাম"
+        },
+        "header": {
+            "add": "নতুন পারমিশন",
+            "edit": "এডিট পারমিশন"
+        }
+    },
+    "user": {
+        "label": {
+            "name": "নাম",
+            "email": "ইমেইল",
+            "password": "পাসওয়ার্ড",
+            "currentPassword": "বর্তমান পাসওয়ার্ড",
+            "newPassword": "নতুন পাসওয়ার্ড",
+            "confirmNewPassword": "নতুন পাসওয়ার্ডের কনফার্মেশন",
+            "resetPassword": "রিসেট পাসওয়ার্ড",
+            "deleteAccount": "অ্যাকাউন্ট মুছুন",
+            "assignRole": "অ্যাসাইন রোল",
+            "role": "রোল",
+            "status": "স্ট্যাটাস",
+            "lastLogin": "শেষ লগইন",
+            "joiningDate": "যোগদানের তারিখ"
+        },
+        "placeholder": {
+            "name": "নাম",
+            "email": "ইমেইল",
+            "currentPassword": "বর্তমান পাসওয়ার্ড",
+            "newPassword": "নতুন পাসওয়ার্ড",
+            "confirmNewPassword": "নতুন পাসওয়ার্ডের কনফার্মেশন",
+            "assignRole": "রোল",
+            "searchUsers": "ইউজারদের অনুসন্ধান"
+        },
+        "header": {
+            "add": "নতুন ইউজার",
+            "edit": "এডিট ইউজার",
+            "details": "ডিটেইলস",
+            "overview": "ওভারভিউ",
+            "security": "নিরাপত্তা",
+            "authenticationLogs": "অথেনটিকেশন লগ",
+            "activityLogs": "অ্যাক্টিভিটি লগ",
+            "show": {
+                "profile": "প্রোফাইল",
+                "upcomingMeetings": "২টি আপকামিং মিটিং",
+                "message": "বার্তা",
+                "date": "তারিখ",
+                "ipAddress": "আইপি এড্রেস",
+                "userAgent": "ইউজার এজেন্ট"
+            },
+            "title": {
+                "updateUserDetails": "ইউজারের তথ্য আপডেট",
+                "updateEmailAddress": "ইমেইল আপডেট",
+                "updatePassword": "পাসওয়ার্ড আপডেট",
+                "updateRoles": "রোল আপডেট"
+            },
+            "info": {
+                "email": {
+                    "validEmail": "অনুগ্রহ করে মনে রাখবেন যে ইমেইল ভেরিফিকেশন করার জন্য একটি ভ্যালিড ইমেইল প্রয়োজন।",
+                    "unverified": "আপনার ইমেইল ভ্যালিড হয়নি।",
+                    "verification": "ভেরিফিকেশন ইমেইল পুনরায় পাঠাতে এখানে ক্লিক করুন।",
+                    "newVerification": "আপনার ইমেইলে একটি নতুন ভেরিফিকেশন লিঙ্ক পাঠানো হয়েছে।"
+                },
+                "delete": {
+                    "downloadData": "একবার আপনার অ্যাকাউন্ট মুছে ফেলা হলে, এর সমস্ত রিসোর্স এবং ডেটা স্থায়ীভাবে মুছে যাবে। আপনার অ্যাকাউন্ট মুছে ফেলার আগে, কোনো ডেটা বা তথ্য ধরে রাখতে চাইলে তা ডাউনলোড করে রাখুন।",
+                    "passwordConfirmation": "একবার আপনার অ্যাকাউন্ট মুছে ফেলা হলে, এর সমস্ত রিসোর্স এবং ডেটা স্থায়ীভাবে মুছে যাবে। আপনি স্থায়ীভাবে আপনার অ্যাকাউন্ট নিশ্চিতভাবে মুছে ফেলতে চাইলে আগে আপনার পাসওয়ার্ড লিখুন।"
+                }
+            },
+            "profile": {
+                "edit": "আমার প্রোফাইল",
+                "update": {
+                    "profileInfo": "প্রোফাইলের তথ্য",
+                    "signInMethod": "সাইন-ইন পদ্ধতি"
+                }
+            }
+        },
+        "filterOptions": {
+            "title": "ফিল্টার অপশন",
+            "subtitle": {
+                "label": {
+                    "role": "রোল",
+                    "status": "স্ট্যাটাস"
+                },
+                "placeholder": {
+                    "role": "রোল",
+                    "status": "স্ট্যাটাস"
+                }
+            }
+        }
+    },
+    "role": {
+        "label": {
+            "roleName": "নাম",
+            "rolePermission": "পারমিশন",
+            "administratorAccess": "অ্যাডমিনিস্ট্রেটর অ্যাক্সেস",
+            "selectAll": "সব নির্বাচন করুন"
+        },
+        "placeholder": {
+            "roleName": "রোলের নাম"
+        },
+        "header": {
+            "add": "নতুন রোল",
+            "edit": "এডিট রোল",
+            "usersAssigned": "ইউজার অ্যাসাইন"
+        }
+    },
+
+    "brand": {
+        "label": {
+            "brandName": "ব্র্যান্ডের নাম"
+        },
+        "placeholder": {
+            "brandName": "ব্র্যান্ডের নাম",
+            "searchBrand": "ব্র্যান্ড অনুসন্ধান"
+        },
+        "title": {
+            "add": "নতুন ব্র্যান্ড",
+            "edit": "এডিট ব্র্যান্ড"
+        },
+        "buttonValue": {
+            "addBrand": "নতুন ব্র্যান্ড"
+        }
+    },
+
+    "commonComponents": {
+        "addressComponent": {
+            "label": {
+                "addressLineOne": "ঠিকানার প্রথম লাইন",
+                "addressLineTwo": "ঠিকানার দ্বিতীয় লাইন",
+                "floor": "তলা",
+                "city": "শহর",
+                "state": "প্রদেশ",
+                "zipCode": "পোষ্টকোড"
+            },
+            "placeholder": {
+                "addressLineOne": "ঠিকানার প্রথম লাইন",
+                "addressLineTwo": "ঠিকানার দ্বিতীয় লাইন",
+                "floor": "তলা",
+                "city": "শহর",
+                "state": "প্রদেশ",
+                "zipCode": "পোষ্টকোড"
+            }
+        }
+    },
+    "buttonValue": {
+        "submit": "সাবমিট",
+        "update": "আপডেট",
+        "filter": "ফিল্টার",
+        "reset": "রিসেট",
+        "apply": "অ্যাপ্লাই",
+        "edit": "এডিট",
+        "login": "লগইন",
+        "logout": "লগআউট",
+        "discard": "বাতিল",
+        "actions": "অ্যাকশন",
+        "confirm": "কনফার্ম",
+        "cancel": "বাতিল",
+        "signIn": "সাইন ইন",
+        "signOut": "সাইন আউট"
+    },
+    "confirmation": {
+        "changeStatus": "আপনি কি নিশ্চিতভাবে স্ট্যাটাস পরিবর্তন করতে চান",
+        "remove": {
+            "account": "আপনি কি নিশ্চিতভাবে আপনার অ্যাকাউন্ট মুছে ফেলতে চান?",
+            "others": "আপনি কি নিশ্চিতভাবে তথ্য মুছে ফেলতে চান"
+        },
+        "wait": "অপেক্ষা করুন...",
+        "permissionDenied": "পারমিশন দেওয়া যায়নি",
+        "successfulLogin": "আপনি সফলভাবে লগ ইন করেছেন",
+        "gotIt": "ঠিক আছে"
+    },
+    "dataTable": {
+        "numbers": {
+            "first": "১০",
+            "second": "২৫",
+            "third": "৫০"
+        },
+        "notFound": "কোন তথ্য পাওয়া যায়নি"
+    },
+    "tooltip": {
+        "title": {
+            "view": "দেখুন",
+            "edit": "এডিট",
+            "editDetails": "এডিট ডিটেইলস",
+            "delete": "মুছুন",
+            "changeStatus": "স্ট্যাটাস পরিবর্তন"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "সাইন ইন",
+            "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন"
+        }
+    },
+    "links": {
+        "footer": {
+            "terms": "শর্তাবলী",
+            "plans": "পরিকল্পনা",
+            "contactUs": "যোগাযোগ"
+        }
+    },
+    "themeMode": {
+        "light": "লাইট",
+        "dark": "ডার্ক",
+        "system": "সিস্টেম"
+    },
+    "sidebarMenu": {
+        "dashboard": "ড্যাশবোর্ড",
+        "admin": "অ্যাডমিন",
+        "configuration": {
+            "menu": "সেটিংস"
+        },
+        "userManagement": {
+            "menu": "ইউজার ম্যানেজমেন্ট",
+            "submenu": {
+                "permissions": "পারমিশন",
+                "roles": "রোল",
+                "users": "ইউজার"
+            }
+        }
+    }
+}

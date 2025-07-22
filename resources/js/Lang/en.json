@@ -1,0 +1,335 @@
+{
+    "label": {
+        "name": "Name",
+        "email": "Email",
+        "slug": "Slug",
+        "status": "Status",
+        "mobileNumber": "Mobile Number",
+        "address": "Address",
+        "note": "Note",
+        "division": "Division",
+        "district": "District",
+        "upazila": "Upazila",
+        "union": "Union",
+        "village": "Village",
+        "actions": "Actions",
+        "date": "Date",
+        "rate": "Rate",
+        "quantity": "Quantity",
+        "totalPrice":"Total Price",
+        "paymentStatus": "Payment Status",
+        "transactionId": "Transaction ID",
+        "createdBy": "Created By"
+    },
+
+    "placeholder": {
+        "name": "Name",
+        "email": "Email",
+        "slug": "Slug",
+        "status": "Status",
+        "mobileNumber": "Mobile Number",
+        "address": "Address",
+        "note": "Note",
+        "division": "Division",
+        "district": "District",
+        "upazila": "Upazila",
+        "union": "Union",
+        "village": "Village",
+        "date": "Date"
+    },
+
+    "configuration": {
+        "label": {
+            "companyName": "Company Name",
+            "organizationNumber": "Organization Number",
+            "country": "Country",
+            "dateFormat": "Date Format",
+            "email": "Email",
+            "adminEmail": "Admin Email",
+            "telephoneNumber": "Telephone Number",
+            "address": "Address",
+            "domainAdminPortal": "Domain Admin Portal",
+            "httpProtocol": "HTTP Protocol",
+            "supportEmail": "Support Email",
+            "supportTelephone": "Support Telephone",
+            "smsServiceBaseUrl": "Base Url",
+            "smsServiceApiKey": "Api Key",
+            "smsServiceSenderId": "Sender Id",
+            "otpExpiryTimeMinutes": "OTP expiry time minutes",
+            "smsRate": "SMS Rate",
+            "freeSmsQuantity": "Free SMS Quantity"
+        },
+        "placeholder": {
+            "companyName": "Company name",
+            "organizationNumber": "Organization number",
+            "country": "Select country",
+            "dateFormat": "Select date format",
+            "email": "Email",
+            "adminEmail": "Admin email",
+            "telephoneNumber": "Telephone number",
+            "domainAdminPortal": "Domain Admin Portal",
+            "httpProtocol": "HTTP Protocol",
+            "supportEmail": "Support Email",
+            "supportTelephone": "Support Telephone",
+            "smsServiceBaseUrl": "Base Url",
+            "smsServiceApiKey": "Api Key",
+            "smsServiceSenderId": "Sender Id",
+            "otpExpiryTimeMinutes": "OTP expiry time minutes"
+        },
+        "header": {
+            "details": "Details",
+            "basicInfo": "Basic",
+            "additionalInfo": "Additional",
+            "contactInfo": "Contact",
+            "globalInfo": "Global",
+            "smsService": "SMS Service",
+            "show": {
+                "basicInformation": "Basic Information",
+                "additionalInformation": "Additional Information",
+                "contactInformation": "Contact Information",
+                "globalInformation": "Global Information",
+                "smsService": "SMS Service"
+            },
+            "title": {
+                "basicInformation": "Update basic information of settings",
+                "additionalInformation": "Update additional information of settings",
+                "contactInformation": "Update contact information of settings",
+                "globalInformation": "Update global information of settings",
+                "smsService": "Update SMS service information of settings",
+                "tooltip": "Country of origination"
+            }
+        }
+    },
+    "permission" : {
+        "label": {
+            "name": "Name",
+            "guardName": "Guard",
+            "groupName": "Group",
+            "status": "Status",
+            "displayName": "Display Name"
+        },
+        "placeholder": {
+            "searchPermissions": "Search permissions",
+            "name": "Name",
+            "guardName": "Guard",
+            "groupName": "Group",
+            "displayName": "Display Name"
+        },
+        "header": {
+            "add": "Add Permission",
+            "edit": "Edit Permission"
+        }
+    },
+    "user": {
+        "label": {
+            "name": "Name",
+            "email": "Email",
+            "password": "Password",
+            "currentPassword": "Current Password",
+            "newPassword": "New Password",
+            "confirmNewPassword": "Confirm New Password",
+            "resetPassword": "Reset Password",
+            "deleteAccount": "Delete Account",
+            "assignRole": "Assign Role",
+            "role": "Role",
+            "status": "Status",
+            "lastLogin": "Last Login",
+            "joiningDate": "Joining Date"
+        },
+        "placeholder": {
+            "name": "Name",
+            "email": "Email",
+            "currentPassword": "Current password",
+            "newPassword": "New password",
+            "confirmNewPassword": "Confirm new password",
+            "assignRole": "Role",
+            "searchUsers": "Search users"
+        },
+        "header": {
+            "add": "Add User",
+            "edit": "Edit User",
+            "details": "Details",
+            "overview": "Overview",
+            "security": "Security",
+            "authenticationLogs": "Authentication Logs",
+            "activityLogs": "Activity Logs",
+            "show": {
+                "profile": "Profile",
+                "upcomingMeetings": "2 Upcoming meetings",
+                "message": "Message",
+                "date": "Date",
+                "ipAddress": "IP Address",
+                "userAgent": "User Agent"
+            },
+            "title": {
+                "updateUserDetails": "Update User Details",
+                "updateEmailAddress": "Update Email",
+                "updatePassword": "Update Password",
+                "updateRoles": "Update Roles"
+            },
+            "info": {
+                "email": {
+                    "validEmail": "Please note that a valid email is required to complete the email verification.",
+                    "unverified": "Your email is unverified.",
+                    "verification": "Click here to re-send the verification email.",
+                    "newVerification": "A new verification link has been sent to your email."
+                },
+                "delete": {
+                    "downloadData": "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.",
+                    "passwordConfirmation": "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account."
+                }
+            },
+            "profile": {
+                "edit": "My Profile",
+                "update": {
+                    "profileInfo": "Profile Information",
+                    "signInMethod": "Sign-in Method"
+                }
+            }
+        },
+        "filterOptions": {
+            "title": "Filter Options",
+            "subtitle": {
+                "label": {
+                    "role": "Role",
+                    "status": "Status"
+                },
+                "placeholder": {
+                    "role": "Select Role",
+                    "status": "Select Status"
+                }
+            }
+        }
+    },
+    "role": {
+        "label": {
+            "roleName": "Name",
+            "rolePermission": "Permission",
+            "administratorAccess": "Administrator Access",
+            "selectAll": "Select All"
+        },
+        "placeholder": {
+            "roleName": "Role name"
+        },
+        "header": {
+            "add": "Add Role",
+            "edit": "Edit Role",
+            "usersAssigned": "Users Assigned"
+        }
+    },
+
+    "brand": {
+        "label": {
+            "brandName": "Brand Name"
+        },
+        "placeholder": {
+            "brandName": "Brand Name",
+            "searchBrand": "Search Brand"
+        },
+        "title": {
+            "add": "Add Brand",
+            "edit": "Edit Brand"
+        },
+        "buttonValue": {
+            "addBrand": "Add Brand"
+        }
+    },
+
+    "commonComponents": {
+        "addressComponent": {
+            "label": {
+                "addressLineOne": "Address Line One",
+                "addressLineTwo": "Address Line Two",
+                "floor": "Floor",
+                "city": "City",
+                "state": "State",
+                "zipCode": "Zip Code"
+            },
+            "placeholder": {
+                "addressLineOne": "Address line one",
+                "addressLineTwo": "Address line two",
+                "floor": "Floor",
+                "city": "City",
+                "state": "State",
+                "zipCode": "Zip code"
+            }
+        }
+    },
+    "buttonValue": {
+        "submit": "Submit",
+        "update": "Update",
+        "filter": "Filter",
+        "reset": "Reset",
+        "apply": "Apply",
+        "edit": "Edit",
+        "login": "Login",
+        "logout": "Logout",
+        "discard": "Discard",
+        "actions": "Actions",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "signIn": "Sign In",
+        "signOut": "Sign Out"
+    },
+    "confirmation": {
+        "changeStatus": "Are you sure you want to change status of",
+        "remove": {
+            "account": "Are you sure you want to delete your account?",
+            "others": "Are you sure you want to remove"
+        },
+        "wait": "Please wait...",
+        "permissionDenied": "Permission Denied",
+        "successfulLogin": "You have successfully logged in",
+        "gotIt": "Ok, got it"
+    },
+    "dataTable": {
+        "numbers": {
+            "first": "10",
+            "second": "25",
+            "third": "50"
+        },
+        "notFound": "No data found"
+    },
+    "tooltip": {
+        "title": {
+            "view": "View",
+            "edit": "Edit",
+            "editDetails": "Edit Details",
+            "delete": "Delete",
+            "changeStatus": "Change Status"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "Sign In",
+            "forgotPassword": "Forgot Password"
+        }
+    },
+    "links": {
+        "footer": {
+            "terms": "Terms",
+            "plans": "Plans",
+            "contactUs": "Contact Us"
+        }
+    },
+    "themeMode": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    },
+    "sidebarMenu": {
+        "dashboard": "Dashboard",
+        "admin": "Admin",
+        "configuration": {
+            "menu": "Settings"
+        },
+        "userManagement": {
+            "menu": "User Management",
+            "submenu": {
+                "permissions": "Permissions",
+                "roles": "Roles",
+                "users": "Users"
+            }
+        }
+    }
+}

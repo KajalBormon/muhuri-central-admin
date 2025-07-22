@@ -1,0 +1,25 @@
+//
+// To make future updates easier consider overriding the global variables from _variables.bootstrap.scss and _variables.custom.scss for current demo in this file.
+// Note that this file is included first and variables defined in _variables.bootstrap.scss and _variables.custom.scss
+// are not accessible in this file but you can override any global variable as shown below:
+//
+
+// Bootstrap contextual colors
+// Primary colors
+// #ffd400
+// #EAAA00
+
+//#F3B007
+//#f39f07
+
+$white: #ffffff !default;
+$black:#000000 !default;
+
+
+$primary:						#0678B1;
+//$primary-active:				#056c9f;
+$primary-active:				#045780;
+$primary-light: 				#E9F3FF;
+$primary-clarity: 				rgba(#045780, 0.2);
+$primary-inverse: 				$white;
+

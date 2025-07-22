@@ -1,0 +1,66 @@
+$theme-color: #F06739;
+$theme-color-active: #ff4000;
+
+// Add Fonts
+body {
+    font-family: '-apple-system','system-ui','BlinkMacSystemFont',"Segoe UI",'Roboto',"Helvetica Neue", 'Ubuntu','Oxygen', 'Fira Sans', 'Droid Sans', 'Inter', 'Helvetica', sans-serif;
+}
+
+.nav-line-tabs .nav-item .nav-link.active, .nav-line-tabs .nav-item.show .nav-link, .nav-line-tabs .nav-item .nav-link:hover:not(.disabled) {
+    border-bottom: 1px solid $theme-color !important;
+    border-bottom-width: 2px !important;
+}
+
+[data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item.show > .menu-link .menu-icon, [data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item.show > .menu-link .menu-icon .svg-icon, [data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item.show > .menu-link .menu-icon i {
+    color: $theme-color !important;
+}
+
+[data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item .menu-link.active .menu-icon, [data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item .menu-link.active .menu-icon .svg-icon, [data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item .menu-link.active .menu-icon i {
+    color: $theme-color !important;
+}
+
+.btn.btn-primary {
+    background: $theme-color !important;
+    border-color: $theme-color !important;
+    color: white !important;
+}
+
+.btn.btn-primary i, .btn.btn-primary .svg-icon path {
+    color: white !important;
+}
+
+.btn-check:checked + .btn.btn-primary, .btn-check:active + .btn.btn-primary, .btn.btn-primary:focus:not(.btn-active), .btn.btn-primary:hover:not(.btn-active), .btn.btn-primary:active:not(.btn-active), .btn.btn-primary.active, .btn.btn-primary.show, .show > .btn.btn-primary {
+    background: $theme-color-active !important;
+}
+
+// Multiselect box CSS
+
+.multiselect, .multiselect-wrapper, .multiselect-tags, .multiselect-tags-search-wrapper{
+    border: none;
+    outline: none;
+    background: #F9F9F9;
+    border-radius: 0.625rem;
+    font-size: 1.15rem;
+    min-height: 5.5vh;
+}
+
+.multiselect input:focus {
+    background: #F1F1F4;
+}
+
+.multiselect-search, .multiselect-clear, .multiselect-tags-search  {
+    background: inherit;
+}
+
+.multiselect-placeholder {
+    color: #99A1B7;
+    font-weight: 500;
+}
+
+.multiselect-option {
+    font-size: 1.15rem;
+}
+
+.multiselect-parent-div {
+    height: 120px;
+}
