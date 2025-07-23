@@ -24,6 +24,7 @@ use App\Http\Controllers\Permission\RoleController;
 use App\Http\Controllers\Permission\PermissionController;
 use App\Http\Controllers\Subscription\SubscriptionPlanController;
 use App\Http\Controllers\Subscription\SubscriptionPlanFeatureController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -198,6 +199,18 @@ Route::middleware(Language::class)
         // Departure-Reason related routes
         Route::resource('departure-reasons', DepartureReasonController::class);
         Route::patch('/departure-reasons/{departure_reason}/change-status', [DepartureReasonController::class, 'changeStatus'])->name('departure-reasons.changeStatus');
+
+
+        Route::get('/clear-cache', function () {
+            Artisan::call('config:clear');
+            Artisan::call('route:clear');
+            Artisan::call('view:clear');
+            Artisan::call('cache:clear');
+
+            return response()->json([
+                'message' => '✅ Cleared: config, route, view, and cache.',
+            ]);
+        });
     });
 });
 
